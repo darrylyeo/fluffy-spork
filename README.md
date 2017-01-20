@@ -1,2 +1,2 @@
 # fluffy-spork
-Nothing. Just playing around with Git.
+Nothing much. Just playing around with Git.
