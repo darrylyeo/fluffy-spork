@@ -4,6 +4,5 @@ node_js:
 	- "6.1"
 before_script:
 	- npm install
-	- npm install -g "gulpjs/gulp-cli#4.0"
 script:
 	- npm run build
