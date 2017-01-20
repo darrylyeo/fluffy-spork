@@ -1,7 +1,6 @@
 var gulp = require('gulp')
 var concat = require('gulp-concat')
 var browserSync = require('browser-sync').create()
-var assets = require('./src/assets/assets')
 var babel = require('gulp-babel')
 var cssnano = require('gulp-cssnano')
 var lintspaces = require('gulp-lintspaces')
@@ -9,6 +8,8 @@ var postcss = require('gulp-postcss')
 var postcss_import = require('postcss-import')
 var postcss_url = require('postcss-url')
 var postcss_cssnext = require('postcss-cssnext')
+
+//var assets = require('./src/assets/assets')
 
 gulp.task('css', () => {
 	var cssFiles = assets.css.map(handle => `src/assets/${handle}.css`)
@@ -78,4 +79,4 @@ gulp.task('copy-directories', () => {
 		.pipe(browserSync.stream())
 })
 
-gulp.task('build', gulp.parallel('assets', 'copy-directories'))
+gulp.task('build', gulp.parallel(/*'assets',*/ 'copy-directories'))

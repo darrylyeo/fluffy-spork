@@ -1,28 +1,32 @@
 {
-	"name": "fluffy-spork",
-	"version": "1.0.0",
-	"description": "Nothing much. Just playing around with Git.",
-	"main": "gulpfile.js",
-	"dependencies": {},
-	"devDependencies": {
-		"gulp": "3.9.1",
-		"gulp-concat": "2.6.1",
-		"browser-sync": "",
-		"gulp-babel": "",
-		"gulp-cssnano": "",
-		"gulp-lintspaces": "0.5.0"
-	},
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/darrylyeo/fluffy-spork.git"
-	},
-	"author": "Darryl Yeo (https://darryl-yeo.com)",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/darrylyeo/fluffy-spork/issues"
-	},
-	"homepage": "https://github.com/darrylyeo/fluffy-spork#readme"
+  "name": "fluffy-spork",
+  "version": "1.0.0",
+  "description": "Nothing much. Just playing around with Git.",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "2.18.6",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-babel": "6.1.2",
+    "gulp-concat": "2.6.1",
+    "gulp-cssnano": "2.1.2",
+    "gulp-lintspaces": "0.5.0",
+    "gulp-postcss": "6.3.0",
+    "postcss-cssnext": "2.9.0",
+    "postcss-import": "9.1.0",
+    "postcss-url": "5.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darrylyeo/fluffy-spork.git"
+  },
+  "author": "Darryl Yeo (https://darryl-yeo.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darrylyeo/fluffy-spork/issues"
+  },
+  "homepage": "https://github.com/darrylyeo/fluffy-spork#readme"
 }
