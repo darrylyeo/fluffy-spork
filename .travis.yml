@@ -1,14 +1,14 @@
 language: node_js
 sudo: required
 node_js:
-	- "node"
+  - "node"
 before_script:
-	- npm install
-	- npm rm -g gulp
-	- npm remove -g gulp-cli
-	- npm uninstall gulp --save-dev
-	- npm install gulp-cli@1.2.2 -g
-	- npm install 'gulpjs/gulp.git#4.0'
+  - npm install
+  - npm rm -g gulp
+  - npm remove -g gulp-cli
+  - npm uninstall gulp --save-dev
+  - npm install gulp-cli@1.2.2 -g
+  - npm install 'gulpjs/gulp.git#4.0'
 script:
-	- npm run build
-#	- gulp build
+  - npm run build
+  # - gulp build
