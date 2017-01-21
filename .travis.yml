@@ -4,11 +4,11 @@ node_js:
 	- "6.1"
 before_script:
 	- npm install
+	- npm rm -g gulp
+	- npm remove -g gulp-cli
+	- npm uninstall gulp --save-dev
+	- npm install gulp-cli@1.2.2 -g
+	- npm install 'gulpjs/gulp.git#4.0'
 script:
 	- npm run build
-#	- npm rm -g gulp
-#	- npm remove -g gulp-cli
-#	- npm uninstall gulp --save-dev
-#	- npm install gulp-cli@1.2.2 -g
-#	- npm install 'gulpjs/gulp.git#4.0'
 #	- gulp build
