@@ -5,9 +5,10 @@ node_js:
 before_script:
 	- npm install
 script:
-	- npm rm -g gulp
-	- npm remove -g gulp-cli
-	- npm uninstall gulp --save-dev
-	- npm install gulp-cli@1.2.2 -g
-	- npm install 'gulpjs/gulp.git#4.0'
-	- gulp build
+	- npm run build
+#	- npm rm -g gulp
+#	- npm remove -g gulp-cli
+#	- npm uninstall gulp --save-dev
+#	- npm install gulp-cli@1.2.2 -g
+#	- npm install 'gulpjs/gulp.git#4.0'
+#	- gulp build
