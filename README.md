@@ -3,4 +3,4 @@ Just playing around with Git. Pull requests welcome.
 
 Join in the fun - we [sure could use more fluff](https://github.com/darrylyeo/fluffy-spork/issues/1).
 
-![Fluffy.](https://d30y9cdsu7xlg0.cloudfront.net/png/22693-200.png)
+![Fluffy.](https://rawgit.com/darrylyeo/fluffy-spork/master/src/Fluffy%20Sporks.svg)
