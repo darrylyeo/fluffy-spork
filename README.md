@@ -30,4 +30,4 @@ If you have any concerns, please [raise an issue](https://github.com/darrylyeo/f
 
 May your days be fluffy and sporkly!
 
--- [Darryl Yeo](https://darryl-yeo.com)
+— **[Darryl Yeo](https://darryl-yeo.com)**
